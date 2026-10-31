@@ -1,0 +1,17 @@
+This repository uses two licences.
+
+1) Open sample — Creative Commons Attribution-NonCommercial 4.0 International
+   (CC BY-NC 4.0), full text in LICENSE-CC-BY-NC-4.0.txt. Applies ONLY to:
+     scenarios/wild-exertional-heat-stroke.tr.md
+     scenarios/wild-exertional-heat-stroke.en.md
+     data/wild-exertional-heat-stroke.json
+     data/sample_scenario.jsonl
+     data/sample_states.jsonl
+   Attribution: Faruk Danış, MD (ORCID 0000-0001-8722-5402).
+   Commercial use (including paid courses) requires a separate licence.
+
+2) Everything else — including catalog/, schema/ and README.md —
+   Copyright (c) 2026 Faruk Danış. All rights reserved.
+   No reproduction, adaptation or redistribution without written permission.
+
+Institutional licensing of the full scenario library: https://www.faruk.md

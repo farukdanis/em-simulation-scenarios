@@ -1,0 +1,66 @@
+{
+  "_license": "Proprietary — All rights reserved. Catalogue text may not be reproduced without permission. Licensing: https://www.faruk.md",
+  "library_version": "1.0",
+  "scenarios": [
+    {
+      "id": "wild-exertional-heat-stroke",
+      "availability": "open sample (CC BY-NC 4.0) — full scenario in this repository",
+      "title": {"tr": "Efor Sıcak Çarpması", "en": "Exertional Heat Stroke"},
+      "domain": "wilderness-medicine",
+      "setting": {"tr": "Saha + acil servis", "en": "Field + emergency department"},
+      "target_audience": {"tr": "Acil tıp asistanı / uzmanı, 2–3 katılımcı", "en": "Emergency medicine residents / specialists, 2–3 participants"},
+      "duration_min": "18-22",
+      "difficulty": "intermediate",
+      "objective_headings": {
+        "tr": ["Efor sıcak çarpmasının tanınması", "Çekirdek ısı ölçümü", "Önce soğut, sonra naklet", "Soğutmanın izlenmesi ve durdurulması", "Rabdomiyoliz ve organ hasarı taraması", "Saha kaynaklarıyla ekip çalışması"],
+        "en": ["Recognising exertional heat stroke", "Core temperature measurement", "Cool first, transport second", "Monitoring and stopping cooling", "Screening for rhabdomyolysis and organ injury", "Teamwork with limited field resources"]
+      },
+      "states": 5
+    },
+    {
+      "id": "ped-status-epilepticus",
+      "availability": "institutional licence",
+      "title": {"tr": "Pediatrik Konvülsif Status Epileptikus", "en": "Pediatric Convulsive Status Epilepticus"},
+      "domain": "pediatric-emergency",
+      "setting": {"tr": "Çocuk acil resüsitasyon alanı", "en": "Paediatric resuscitation bay"},
+      "target_audience": {"tr": "Çocuk acil / acil tıp asistanı, 2–3 katılımcı", "en": "Paediatric emergency / emergency medicine residents, 2–3 participants"},
+      "duration_min": "15-20",
+      "difficulty": "intermediate",
+      "objective_headings": {
+        "tr": ["Status epileptikusun erken tanınması", "Düzeltilebilir nedenlerin dışlanması", "Kilo bazlı birinci basamak tedavi", "İkinci basamağa zamanında geçiş", "Dirençli status yönetimi", "Ekip liderliği ve aile iletişimi"],
+        "en": ["Early recognition of status epilepticus", "Excluding reversible causes", "Weight-based first-line therapy", "Timely escalation to second line", "Managing refractory status", "Team leadership and family communication"]
+      },
+      "states": 5
+    },
+    {
+      "id": "ped-septic-shock",
+      "availability": "institutional licence",
+      "title": {"tr": "Süt Çocuğunda Septik Şok ve Meningokoksemi", "en": "Septic Shock and Meningococcaemia in an Infant"},
+      "domain": "pediatric-emergency",
+      "setting": {"tr": "Çocuk acil resüsitasyon alanı", "en": "Paediatric resuscitation bay"},
+      "target_audience": {"tr": "Çocuk acil / acil tıp asistanı, 2–3 katılımcı", "en": "Paediatric emergency / emergency medicine residents, 2–3 participants"},
+      "duration_min": "20",
+      "difficulty": "advanced",
+      "objective_headings": {
+        "tr": ["Süt çocuğunda şokun erken tanınması", "Bir saatlik sepsis demeti", "Hedefli sıvı resüsitasyonu ve yeniden değerlendirme", "Sıvıya dirençli şok yönetimi", "Sıvı yükünün tanınması", "Enfeksiyon kontrolü ve aile iletişimi"],
+        "en": ["Early recognition of shock in infants", "The one-hour sepsis bundle", "Targeted fluid resuscitation with reassessment", "Managing fluid-refractory shock", "Recognising fluid overload", "Infection control and family communication"]
+      },
+      "states": 5
+    },
+    {
+      "id": "wild-avalanche-hypothermia",
+      "availability": "institutional licence",
+      "title": {"tr": "Çığ Altında Ağır Kazara Hipotermi ve Hipotermik Kardiyak Arrest", "en": "Severe Accidental Hypothermia and Hypothermic Cardiac Arrest after Avalanche Burial"},
+      "domain": "wilderness-medicine",
+      "setting": {"tr": "Saha + resüsitasyon alanı", "en": "Field + resuscitation bay"},
+      "target_audience": {"tr": "Acil tıp asistanı / uzmanı, 2–3 katılımcı", "en": "Emergency medicine residents / specialists, 2–3 participants"},
+      "duration_min": "20-25",
+      "difficulty": "advanced",
+      "objective_headings": {
+        "tr": ["Sahada klinik hipotermi evrelemesi", "Çığ resüsitasyon algoritması", "Hipotermik kardiyak arrest yönetimi", "Aktif gövde merkezli yeniden ısıtma", "ECLS/ECMO triyajı ve sevk", "'Isınmadan ölü sayılmaz' ilkesi"],
+        "en": ["Clinical field staging of hypothermia", "Avalanche resuscitation algorithm", "Managing hypothermic cardiac arrest", "Active truncal rewarming", "ECLS/ECMO triage and transfer", "'Not dead until warm'"]
+      },
+      "states": 5
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/farukdanis/em-simulation-scenarios/schema/scenario.schema.json",
+  "title": "Bilingual emergency medicine simulation scenario",
+  "type": "object",
+  "$defs": {
+    "i18n": {"type": "object", "properties": {"tr": {"type": "string"}, "en": {"type": "string"}}, "required": ["tr", "en"]},
+    "i18nList": {"type": "object", "properties": {"tr": {"type": "array", "items": {"type": "string"}}, "en": {"type": "array", "items": {"type": "string"}}}, "required": ["tr", "en"]},
+    "vitals": {"type": "object", "description": "Free keys: hr, bp, rr, spo2, temp_c, core_temp_c, glucose_mg_dl, gcs, crt_s, rhythm, k_mmol_l …", "additionalProperties": {"type": ["number", "string"]}}
+  },
+  "required": ["id", "version", "domain", "setting_type", "title", "setting", "patient", "duration_min", "participants", "learning_objectives", "summary", "progression", "preparation", "briefing", "initial_state", "states", "debriefing", "assessment_checklist", "references"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "version": {"type": "string"},
+    "domain": {"type": "string", "examples": ["pediatric-emergency", "wilderness-medicine"]},
+    "setting_type": {"type": "string", "examples": ["emergency-department", "field-to-emergency-department"]},
+    "title": {"$ref": "#/$defs/i18n"},
+    "setting": {"$ref": "#/$defs/i18n"},
+    "patient": {"type": "object", "required": ["age", "sex", "profile"], "properties": {"age": {"type": "string"}, "weight_kg": {"type": ["number", "null"]}, "sex": {"type": "string"}, "profile": {"$ref": "#/$defs/i18n"}}},
+    "duration_min": {"type": "string"},
+    "participants": {"$ref": "#/$defs/i18n"},
+    "learning_objectives": {"type": "object", "required": ["technical", "non_technical"], "properties": {"technical": {"$ref": "#/$defs/i18nList"}, "non_technical": {"$ref": "#/$defs/i18nList"}}},
+    "summary": {"$ref": "#/$defs/i18n"},
+    "progression": {"$ref": "#/$defs/i18n"},
+    "preparation": {"type": "object", "description": "Each key is an i18n object", "required": ["documents", "roles", "costume", "pre_post_materials", "environment", "actor_notes", "equipment", "medications"], "additionalProperties": {"$ref": "#/$defs/i18n"}},
+    "briefing": {"$ref": "#/$defs/i18n"},
+    "initial_state": {"type": "object", "required": ["appearance", "vitals"], "properties": {"appearance": {"$ref": "#/$defs/i18n"}, "vitals": {"$ref": "#/$defs/vitals"}}},
+    "states": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["id", "time", "label", "expected_actions", "patient_response"], "properties": {
+      "id": {"type": "integer"}, "time": {"type": "string"}, "label": {"$ref": "#/$defs/i18n"},
+      "expected_actions": {"$ref": "#/$defs/i18nList", "description": "Items starting with ★ are critical actions"},
+      "patient_response": {"$ref": "#/$defs/i18n"}, "vitals": {"$ref": "#/$defs/vitals"},
+      "transitions": {"type": "array", "items": {"type": "object", "required": ["condition", "to"], "properties": {"condition": {"type": "string"}, "to": {"type": "integer"}}}}}}},
+    "debriefing": {"type": "object", "required": ["key_points", "common_errors"], "properties": {"key_points": {"$ref": "#/$defs/i18nList"}, "common_errors": {"$ref": "#/$defs/i18nList"}}},
+    "assessment_checklist": {"$ref": "#/$defs/i18nList"},
+    "team_assessment": {"type": ["string", "null"]},
+    "references": {"type": "array", "items": {"type": "string"}}
+  }
+}

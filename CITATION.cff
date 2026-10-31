@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use the sample scenario, please cite it as below."
+title: "Emergency Medicine Simulation Scenarios — Open Sample (Turkish/English)"
+type: dataset
+version: "1.0"
+date-released: "2026-10-31"
+license: CC-BY-NC-4.0
+repository-code: "https://github.com/farukdanis/em-simulation-scenarios"
+url: "https://huggingface.co/datasets/farukdanis/em-simulation-scenarios"
+authors:
+  - family-names: "Danış"
+    given-names: "Faruk"
+    orcid: "https://orcid.org/0000-0001-8722-5402"
+    affiliation: "Bolu Abant İzzet Baysal University, Department of Emergency Medicine"

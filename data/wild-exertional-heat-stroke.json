@@ -1,0 +1,205 @@
+{
+  "id": "wild-exertional-heat-stroke",
+  "version": "1.0",
+  "domain": "wilderness-medicine",
+  "setting_type": "field-to-emergency-department",
+  "title": {
+    "tr": "Efor Sıcak Çarpması",
+    "en": "Exertional Heat Stroke"
+  },
+  "setting": {
+    "tr": "Yaz / sıcak acilleri — arazi koşusu/trekking · saha + acil servis",
+    "en": "Summer / heat emergencies — trail running/trekking · field + emergency department"
+  },
+  "patient": {
+    "age": "24 years",
+    "weight_kg": null,
+    "sex": "male",
+    "profile": {
+      "tr": "24 yaşında erkek arazi koşucusu (kurgusal).",
+      "en": "24-year-old male trail runner (fictional)."
+    }
+  },
+  "duration_min": "18-22",
+  "participants": {
+    "tr": "Acil tıp asistan/uzman düzeyinde 2–3 katılımcı (1 ekip lideri). Ön koşul: çevresel sıcak hastalıkları ve hipertermi okuması. Kolaylaştırıcı: 1 hemşire + 1 yarış görevlisi/arkadaş (gömülü aktör).",
+    "en": "2–3 emergency medicine residents/specialists (1 team leader). Prerequisite: reading on environmental heat illness and hyperthermia. Facilitators: 1 nurse + 1 race official/friend (embedded actor)."
+  },
+  "learning_objectives": {
+    "technical": {
+      "tr": [
+        "Efor sıcak çarpmasını tanır: çekirdek ısı >40°C + merkezi sinir sistemi bozukluğu.",
+        "★ Çekirdek (rektal) termometre kullanır; ağız/kulak/koltuk altı değerlerinin yanıltıcılığını bilir.",
+        "★ 'Önce soğut, sonra naklet' ilkesini uygular — gecikmeden buzlu su daldırması.",
+        "Soğutma hızını (~0,2°C/dk) izler ve aktif soğutmayı ~38,6–39°C'de durdurur.",
+        "Rabdomiyoliz/böbrek hasarı/pıhtılaşma bozukluğunu tarar ve yönetir; antipiretikten kaçınır."
+      ],
+      "en": [
+        "Recognises exertional heat stroke: core temperature >40°C + CNS dysfunction.",
+        "★ Uses a core (rectal) thermometer; knows oral/tympanic/axillary readings are misleading.",
+        "★ Applies 'cool first, transport second' — cold-water immersion without delay.",
+        "Monitors cooling rate (~0.2°C/min) and stops active cooling at ~38.6–39°C.",
+        "Screens for and manages rhabdomyolysis/AKI/coagulopathy; avoids antipyretics."
+      ]
+    },
+    "non_technical": {
+      "tr": [
+        "Önceliklendirme: soğutmayı tam tetkik/nakil öncesi başlatır.",
+        "Ekip içi kapalı döngü iletişim ve görev paylaşımı (daldırma düzeneği).",
+        "Kısıtlı saha kaynaklarıyla doğaçlama soğutma düzeneği kurar.",
+        "Yatış/taburculuk kararını gerekçelendirir.",
+        "Hasta/yakın iletişimi ve güvenlik (nöbet/aspirasyon) yönetimi."
+      ],
+      "en": [
+        "Prioritises: starts cooling before full work-up/transport.",
+        "Closed-loop communication and task sharing (immersion set-up).",
+        "Improvises a cooling set-up with limited field resources.",
+        "Justifies admission/discharge decisions.",
+        "Communicates with patient/companions and manages safety (seizure/aspiration)."
+      ]
+    }
+  },
+  "summary": {
+    "tr": "24 yaşında erkek, sıcak bir yaz gününde arazi koşusu sırasında konfüzyon ve dengesizlikle yığılmış; yarış görevlileri acile getiriyor. Cilt sıcak-kızarık ve terli, hasta ajite-konfüze. Efor sıcak çarpmasıdır (çekirdek 41,5°C). Soğutma geciktirilirse nöbet ve kötüleşme gelişir.",
+    "en": "A 24-year-old man collapsed with confusion and ataxia during a trail race on a hot summer day; race officials bring him to the ED. Skin hot, flushed and sweaty; agitated and confused. This is exertional heat stroke (core 41.5°C). Delayed cooling leads to seizures and deterioration."
+  },
+  "progression": {
+    "tr": "Erken çekirdek ısı ölçümü + derhal agresif soğutma (ideali buzlu su daldırması) ile hasta düzelir. Soğutma geciktirilir/yanlış termometre kullanılırsa → nöbet, derinleşen bilinç bozukluğu. Aktif soğutma ~38,6–39°C'de durdurulmazsa → aşırı soğutma/titreme. Sonuçta rabdomiyoliz/böbrek hasarı yönetimi ve YBÜ yatışı planlanır.",
+    "en": "Early core temperature measurement + immediate aggressive cooling (ideally cold-water immersion) leads to recovery. Delayed cooling / wrong thermometer → seizures, worsening encephalopathy. Failure to stop cooling at ~38.6–39°C → overcooling/shivering. The case ends with rhabdomyolysis/AKI management and ICU admission."
+  },
+  "preparation": {
+    "documents": {
+      "tr": "Saha devir notu; CK 12.000 U/L, kreatinin 1,8 mg/dL, K⁺ 5,6, AST/ALT yüksek, INR 1,6, trombosit düşük, idrarda miyoglobin (+); EKG sinüs taşikardisi; kan gazı metabolik asidoz.",
+      "en": "Field handover note; CK 12,000 U/L, creatinine 1.8 mg/dL, K⁺ 5.6, raised AST/ALT, INR 1.6, low platelets, urine myoglobin (+); ECG sinus tachycardia; metabolic acidosis on blood gas."
+    },
+    "roles": {
+      "tr": "Teknisyen; eğitmen; kolaylaştırıcı-1: hemşire; kolaylaştırıcı-2: yarış görevlisi/arkadaş (öykü verir).",
+      "en": "Technician; instructor; facilitator 1: nurse; facilitator 2: race official/friend (gives history)."
+    },
+    "costume": {
+      "tr": "Hasta: koşu kıyafeti, terli, kızarık; bilinç bulanık.",
+      "en": "Patient: running kit, sweaty, flushed; confused."
+    },
+    "pre_post_materials": {
+      "tr": "WMS Sıcak Hastalıkları 2024 özeti; daldırma ile soğutma protokolü kartı; rabdomiyoliz yönetim kartı.",
+      "en": "WMS Heat Illness 2024 summary; cold-water immersion protocol card; rhabdomyolysis management card."
+    },
+    "environment": {
+      "tr": "İki fazlı: (1) saha — sıcak yaz ortamı; (2) acil servis. Soğutma için küvet/branda + buz + su düzeneği.",
+      "en": "Two phases: (1) field — hot summer setting; (2) ED. Tub/tarp + ice + water for cooling."
+    },
+    "actor_notes": {
+      "tr": "Görevli: 'Koşunun 15. km'sinde sendeledi, saçmaladı, sonra düştü; hava çok sıcaktı.' Hemşire: ekip görüntüleme/nakil için soğutmayı geciktirirse 'önce soğutmaya başlasak mı?' der; 38,5°C altına soğutma sürerse titremeyi bildirir.",
+      "en": "Official: 'At kilometre 15 he started staggering, talking nonsense, then collapsed; it was very hot.' Nurse: if the team delays cooling for imaging/transport asks 'shall we start cooling first?'; reports shivering if cooling continues below 38.5°C."
+    },
+    "equipment": {
+      "tr": "Çekirdek (rektal) termometre, daldırma küveti/branda + buz + su, fan, ıslak örtüler, buz paketleri, monitör, IV set, hava yolu/nöbet seti, idrar sondası, battaniye.",
+      "en": "Core (rectal) thermometer, immersion tub/tarp + ice + water, fan, wet sheets, ice packs, monitor, IV set, airway/seizure kit, urinary catheter, blankets."
+    },
+    "medications": {
+      "tr": "%0,9 NaCl; benzodiazepin (midazolam/diazepam); antiemetik. Antipiretik (parasetamol/NSAİİ) etkisiz — kullanılmamalı; dantrolen önerilmez.",
+      "en": "0.9% NaCl; benzodiazepine (midazolam/diazepam); antiemetic. Antipyretics (paracetamol/NSAIDs) are ineffective — do not use; dantrolene not recommended."
+    }
+  },
+  "briefing": {
+    "tr": "Sıcak bir yaz günü; arazi koşusu sırasında yığılan genç bir hasta acile getiriliyor. Ekipman tamdır; soğutma düzeneği mevcut. Roller dağıtıldı. Güvenli öğrenme ortamındayız.",
+    "en": "A hot summer day; a young runner who collapsed during a trail race is brought to the ED. Equipment is complete; a cooling set-up is available. Roles are assigned. This is a safe learning environment."
+  },
+  "initial_state": {
+    "appearance": {
+      "tr": "Ajite-konfüze (GKS 13; G3 S4 M6), sıcak-kızarık cilt, terli.",
+      "en": "Agitated and confused (GCS 13; E3 V4 M6), hot flushed sweaty skin."
+    },
+    "vitals": {"hr": 140, "bp": "95/55", "rr": 28, "spo2": 96, "core_temp_c": 41.5, "glucose_mg_dl": 110, "gcs": 13}
+  },
+  "states": [
+    {
+      "id": 1,
+      "time": "0-3 min",
+      "label": {"tr": "Devir / tanı", "en": "Handover / diagnosis"},
+      "expected_actions": {
+        "tr": ["ABC; monitörizasyon, geniş damar yolu, oksijen.", "★ Çekirdek (rektal) ısı ölçümü.", "Tanı: hipertermi + bilinç bozukluğu = efor sıcak çarpması.", "Soğutma düzeneği için görevlendirme.", "Kısa öykü: efor, sıcak ortam, kollaps."],
+        "en": ["ABC; monitoring, large-bore IV, oxygen.", "★ Core (rectal) temperature.", "Diagnosis: hyperthermia + altered mental status = exertional heat stroke.", "Assign team members to set up cooling.", "Brief history: exertion, heat, collapse."]
+      },
+      "patient_response": {
+        "tr": "Rektal 41,5°C. Ağız/kulak ölçülürse yanıltıcı şekilde düşük (~38–39°C) → kolaylaştırıcı 'çekirdek ölçtük mü?' der.",
+        "en": "Rectal 41.5°C. Oral/tympanic readings are misleadingly low (~38–39°C) → facilitator asks 'did we measure core temperature?'."
+      },
+      "vitals": {"hr": 140, "bp": "95/55", "rr": 28, "core_temp_c": 41.5}
+    },
+    {
+      "id": 2,
+      "time": "3-8 min",
+      "label": {"tr": "Agresif soğutma", "en": "Aggressive cooling"},
+      "expected_actions": {
+        "tr": ["★ Derhal buzlu su daldırması (baş su üstünde) — 'önce soğut'.", "Daldırma yoksa: ıslak örtü + fan + buz paketleri (boyun/koltuk altı/kasık).", "Çekirdek ısıyı sürekli izle; soğutmayı nakil/tetkik için geciktirme.", "IV %0,9 NaCl; hava yolu ve nöbet güvenliği."],
+        "en": ["★ Immediate cold-water immersion (head above water) — 'cool first'.", "If immersion unavailable: wet sheets + fan + ice packs (neck/axillae/groin).", "Continuous core temperature monitoring; do not delay cooling for transport/tests.", "IV 0.9% NaCl; airway and seizure safety."]
+      },
+      "patient_response": {
+        "tr": "Doğru soğutma → çekirdek ~0,2°C/dk düşer (41,5→~40°C). Soğutma geciktirilirse → çekirdek yüksek kalır → Durum 3 (nöbet).",
+        "en": "Correct cooling → core falls ~0.2°C/min (41.5→~40°C). If cooling is delayed → core stays high → state 3 (seizure)."
+      },
+      "vitals": {"core_temp_c": 40.0},
+      "transitions": [{"condition": "cooling delayed", "to": 3}]
+    },
+    {
+      "id": 3,
+      "time": "8-14 min",
+      "label": {"tr": "Komplikasyon ve sürdürme", "en": "Complications and maintenance"},
+      "expected_actions": {
+        "tr": ["Nöbet olursa: ★ benzodiazepin; hava yolu koruma.", "Soğutmayı sürdür.", "Laboratuvar yorumu: CK çok yüksek (rabdomiyoliz), kreatinin yüksek, INR yüksek/trombosit düşük.", "★ Antipiretik verme; dantrolen verme.", "Rabdomiyoliz için sıvı; idrar çıkışı takibi."],
+        "en": ["If seizure: ★ benzodiazepine; protect the airway.", "Continue cooling.", "Interpret labs: very high CK (rhabdomyolysis), raised creatinine, raised INR / low platelets.", "★ No antipyretics; no dantrolene.", "Fluids for rhabdomyolysis; monitor urine output."]
+      },
+      "patient_response": {
+        "tr": "Soğutuldukça çekirdek 40→39°C; nöbet benzodiazepinle durur. Antipiretik verilirse ateş düşmez. Sıvı + soğutma ile hemodinamik düzelme.",
+        "en": "With cooling, core 40→39°C; seizure stops with benzodiazepine. Antipyretics do not lower temperature. Haemodynamics improve with fluids + cooling."
+      },
+      "vitals": {"hr": 120, "bp": "105/65", "core_temp_c": 39.0}
+    },
+    {
+      "id": 4,
+      "time": "14-18 min",
+      "label": {"tr": "Soğutmayı durdurma ve yatış (olumlu son)", "en": "Stop cooling and admit (positive ending)"},
+      "expected_actions": {
+        "tr": ["★ Çekirdek ~38,6–39°C'ye ulaşınca aktif soğutmayı durdur.", "Yeniden değerlendir; rabdomiyoliz/böbrek hasarı/pıhtılaşma yönetimini sürdür.", "Yatış kararı: organ tutulumu → YBÜ.", "Yakınları bilgilendir."],
+        "en": ["★ Stop active cooling when core reaches ~38.6–39°C.", "Reassess; continue rhabdomyolysis/AKI/coagulopathy management.", "Disposition: organ involvement → ICU.", "Update companions."]
+      },
+      "patient_response": {
+        "tr": "Çekirdek 38,8°C; GKS 15'e döner. Stabil, YBÜ'ye yatış — SENARYO SONU.",
+        "en": "Core 38.8°C; GCS returns to 15. Stable, admitted to ICU — END OF SCENARIO."
+      },
+      "vitals": {"core_temp_c": 38.8, "gcs": 15}
+    },
+    {
+      "id": 5,
+      "time": "any",
+      "label": {"tr": "Alternatif: aşırı soğutma / yanlış termometre", "en": "Alternative: overcooling / wrong thermometer"},
+      "expected_actions": {
+        "tr": ["Soğutma 38°C altına sürdürülürse → ★ soğutmayı durdur, gerekirse ısıt.", "Yalnız kulak/ağız ölçümle 'ateş yok' denip soğutma geciktirilirse kolaylaştırıcı çekirdek ölçümü ister.", "Ekip kararı düzeltir, Durum 4'e döner."],
+        "en": ["If cooling continues below 38°C → ★ stop cooling, rewarm if needed.", "If cooling is delayed because tympanic/oral reading shows 'no fever', facilitator requests core measurement.", "The team corrects course and returns to state 4."]
+      },
+      "patient_response": {
+        "tr": "Aşırı soğutma → titreme, çekirdek 37°C altı (eğitsel köşe taşı). Düzeltilirse Durum 4 ile olumlu sonlanır.",
+        "en": "Overcooling → shivering, core below 37°C (teaching point). If corrected, ends positively via state 4."
+      },
+      "vitals": {"core_temp_c": "<37"},
+      "transitions": [{"condition": "decision corrected", "to": 4}]
+    }
+  ],
+  "debriefing": {
+    "key_points": {
+      "tr": ["Efor ve klasik sıcak çarpması farkı; 'önce soğut, sonra naklet' gerekçesi.", "Neden çekirdek (rektal) termometre? Periferik ölçümlerin yanıltıcılığı.", "Soğutma yöntemleri ve hızları; buzlu su daldırmasının üstünlüğü.", "Aktif soğutmayı ~38,6–39°C'de durdurmanın mantığı.", "Antipiretiklerin neden etkisiz olduğu; dantrolenin yeri olmadığı.", "Rabdomiyoliz/böbrek hasarı/pıhtılaşma taraması ve yatış kararı."],
+      "en": ["Exertional vs classic heat stroke; the rationale for 'cool first, transport second'.", "Why a core (rectal) thermometer? Peripheral readings mislead.", "Cooling methods and rates; superiority of cold-water immersion.", "Why stop active cooling at ~38.6–39°C.", "Why antipyretics are ineffective; no role for dantrolene.", "Screening for rhabdomyolysis/AKI/coagulopathy and disposition."]
+    },
+    "common_errors": {
+      "tr": ["Soğutmayı tetkik/nakil için geciktirmek.", "Ağız/kulak ölçümle ateşi hafife almak.", "Antipiretikle ateşi düşürmeye çalışmak.", "Aktif soğutmayı durdurmayıp aşırı soğutmak.", "Rabdomiyoliz/böbrek hasarını atlamak.", "Nöbet/aspirasyon güvenliğini ihmal etmek."],
+      "en": ["Delaying cooling for tests/transport.", "Underestimating temperature with oral/tympanic readings.", "Trying to lower temperature with antipyretics.", "Not stopping active cooling, causing overcooling.", "Missing rhabdomyolysis/AKI.", "Neglecting seizure/aspiration safety."]
+    }
+  },
+  "assessment_checklist": {"tr": [], "en": []},
+  "team_assessment": null,
+  "references": [
+    "Eifling KP, Gaudio FG, Dumke C, et al. Wilderness Medical Society Clinical Practice Guidelines for the Prevention and Treatment of Heat Illness: 2024 Update. Wilderness Environ Med. 2024;35(1_suppl):112S-127S.",
+    "Lipman GS, Gaudio FG, Eifling KP, et al. Wilderness Medical Society Clinical Practice Guidelines for the Prevention and Treatment of Heat Illness: 2019 Update. Wilderness Environ Med. 2019;30(4S):S33-S46."
+  ]
+}
